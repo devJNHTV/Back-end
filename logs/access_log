@@ -1,0 +1,38 @@
+2025-04-23T09:56:33.783+07:00  INFO 12772 --- [restartedMain] c.s.a.AuthenticationServiceApplication   : Starting AuthenticationServiceApplication using Java 17.0.11 with PID 12772 (C:\Study\Springboot2025\SaleManagement\authentication-service\target\classes started by Thiên Vỹ in C:\Study\Springboot2025\SaleManagement)
+2025-04-23T09:56:33.783+07:00  INFO 12772 --- [restartedMain] c.s.a.AuthenticationServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-04-23T09:56:33.948+07:00  INFO 12772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-23T09:56:33.967+07:00  INFO 12772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2025-04-23T09:56:34.059+07:00  INFO 12772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-23T09:56:34.059+07:00  INFO 12772 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-23T09:56:34.059+07:00  INFO 12772 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-23T09:56:34.075+07:00  INFO 12772 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/auth]   : Initializing Spring embedded WebApplicationContext
+2025-04-23T09:56:34.075+07:00  INFO 12772 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 292 ms
+2025-04-23T09:56:34.103+07:00 DEBUG 12772 --- [restartedMain] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2025-04-23T09:56:34.123+07:00  INFO 12772 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-23T09:56:34.123+07:00  INFO 12772 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-23T09:56:34.142+07:00  INFO 12772 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-23T09:56:34.142+07:00  INFO 12772 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-04-23T09:56:34.154+07:00  INFO 12772 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@330a6e22
+2025-04-23T09:56:34.154+07:00  INFO 12772 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-04-23T09:56:34.154+07:00  INFO 12772 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-23T09:56:34.211+07:00  INFO 12772 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-23T09:56:34.234+07:00  INFO 12772 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-23T09:56:34.374+07:00  INFO 12772 --- [restartedMain] c.s.a.config.AppInitConfig               : Initializing application.....
+2025-04-23T09:56:34.423+07:00  WARN 12772 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-23T09:56:34.669+07:00  INFO 12772 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-23T09:56:34.680+07:00  INFO 12772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/auth'
+2025-04-23T09:56:34.692+07:00  INFO 12772 --- [restartedMain] c.s.a.AuthenticationServiceApplication   : Started AuthenticationServiceApplication in 0.956 seconds (process running for 138.217)
+2025-04-23T09:56:34.720+07:00  INFO 12772 --- [restartedMain] c.s.a.config.AppInitConfig               : Application initialization completed .....
+2025-04-23T09:56:34.724+07:00  INFO 12772 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-23T09:56:39.775+07:00  INFO 12772 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-23T09:56:39.973+07:00  INFO 12772 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-23T09:56:39.973+07:00  INFO 12772 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-23T09:56:39.973+07:00  INFO 12772 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-04-23T09:56:39.973+07:00  INFO 12772 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.

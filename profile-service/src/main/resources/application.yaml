@@ -1,0 +1,20 @@
+server:
+  port: 8083
+  servlet:
+    context-path: /profile
+spring:
+  application:
+    name: profile-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/profiledb
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+idp:
+  url: http://localhost:8180
+  client-id: Studyeasy
+  client-secret: 3mZhFpJDWw2wZo0XXkH06VYlY8aim5X9
